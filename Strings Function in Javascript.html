@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings Function in Javascript</title>
+</head>
+
+<body>
+
+    <script>
+        var str = 'Ayush Pathak is a good boy';
+        // console.log(str);
+        // var position = str.indexOf('is');
+        // console.log(position);
+        // var position2 = str.lastIndexOf('is');
+        // console.log(position2);
+
+        // Substring from a string
+        var substr = str.slice(1, 7);
+        console.log(substr);
+        var substr = str.substring(1, 7);
+        console.log(substr);
+        var substr1 = str.substr(1, 7);
+        console.log(substr1);
+
+        var replaced = str.replace('good', 'Handsome');
+        console.log(str);
+        console.log(replaced);
+        console.log(str.toUpperCase());
+
+        var strings = 'I am a boy';
+        console.log(strings.toLowerCase());
+
+        var newString = strings.concat(' Ha Ha');
+        console.log(newString);
+
+        var newAyush = 'Hlo Bacchhoo';
+        console.log(newAyush + ' Kya Haal Chaall');
+
+        var stringWithWhiteSpaces= "         T  his  is content   with   white    spacess   a";
+        console.log(stringWithWhiteSpaces);
+        console.log(stringWithWhiteSpaces.trim());
+
+        var char3= str.charAt(2);
+        console.log(char3);
+
+        var char2 = str.charCodeAt(2);
+        console.log(char2);
+        console.log(str[6]);
+
+
+    </script>
+</body>
+
+</html>

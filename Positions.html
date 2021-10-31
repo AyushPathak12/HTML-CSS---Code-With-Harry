@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 2px solid black;
+            background-color: khaki;
+            height: 4545345px;
+        }
+
+        .box {
+            display: inline-block;
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+
+        }
+
+        #box3 {
+            /*relative means relative to its normal position and will leave a gap at its normal position*/
+            /*absolute means absolute relative to the position of its first parent*/
+            /* position: absolute; */
+            /* position: fixed;
+            right: 4px;
+            bottom: 2px; */
+            /* top: 34px;
+            left: 134px; */
+            /* fixed:Relative to the browser window */
+            position: sticky;
+            top: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3"> Chat with us</div>
+        <div class="box" id="box4">4</div>
+    </div>
+    <!-- <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div> -->
+</body>
+
+</html>
