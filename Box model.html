@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>box Model</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            background-color: cyan;
+        }
+    .container{
+        background-color: blue;
+        border: 4px solid green;
+        /* padding:90px;
+        /* padding-top: 56px;
+        padding-left: 65px;
+        padding-right: 76px;
+        padding-bottom: 67px; */ 
+        /*padding: 23px 54px 45px 75px;*/   /*padding: top right bottom left */
+        padding: 34px 19px;    /*padding: y(top/bottom) x(left/right);*/
+
+        margin:34px 19px;   /*Margin follow all rules like padding*/
+        border-radius: 24px;
+        height: 200px;
+        width: 533px;
+        box-sizing: border-box;
+
+
+    }</style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quis quibusdam dignissimos possimus pariatur, unde voluptate repellendus aperiam qpa nesci.</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quis quibusdam sequatur cumque laboriosam expedita nulla, fuga deserunt odio.
+        Debitis tempore ipsa quos quae? Illum amet assumenda, architecto dolores in accusantium repudiandae expedita mollitia doloribus excepturi asperiores accusamus impedit dolorum pariatur quam quae! Deleniti voluptas quod accusamus culpa nesci.</p>
+    </div>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quis quibusdam dignissimos possimus pariatur, unde voluptate repellendus aperiam q odio.
+        Debitis tempore ipsa quos quae? Illum amet assumenda, architecto dolores in accusantium repudiandae expedita mollitia doloribus excepturi asperiores accusamus impedit dolorum pariatur quam quae! Deleniti voluptas quod accusamus culpa nesci.</p>
+    </div>
+</body>
+</html>

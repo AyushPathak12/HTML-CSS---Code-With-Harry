@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date and Time in html</title>
+</head>
+<body>
+    <div class="container">This is a container</div>
+    <script>console.log("This is date and time tutorial");
+    let now = new Date();
+    console.log(now);
+
+    let dat = new Date(0);  //reference date
+    console.log(dat);
+
+    // let newDate = new Date("2029-09-30");
+    // console.log(newDate);
+    // let newDate = new Date("year, month, date, hours, minutes, seconds, milliseconds");
+    let newDate = new Date(3020, 4, 6, 9, 3, 2, 32);
+    console.log(newDate);
+
+    let yr = newDate.getFullYear();
+    console.log("The year is", yr);
+
+    let dt = newDate.getDate();
+    console.log("The Date  is", dt);
+
+    let mon = newDate.getMonth();
+    console.log("The Month is", mon);
+
+    let day = newDate.getDay();
+    console.log("The day is ", day);
+
+    Date.now()  //give till milliseconds in number
+    
+    newDate.setDate(35);
+    console.log(newDate);
+
+
+    newDate.setMiinutes(29);
+    console.log(newDate);
+    </script>
+</body>
+</html>

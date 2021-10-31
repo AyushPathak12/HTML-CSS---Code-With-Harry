@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Scoping If else and switch statements</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>Item-1</li>
+            <li>Item-2</li>
+            <li>Item-3</li>
+            <li>Item-4</li>
+            <li>Item-5</li>
+            <li>Item-6</li>
+            <li>Item-7</li>
+        </ul>
+    </div>
+    <script>
+        // let has block level scope
+        // var has global scope
+        // var string1 = 'THis is a string';
+        // var string1 = 'THis is a string2';
+        // console.log(string1);
+
+        // let a = "u";
+        // {
+        //     let a = "u6";
+        //     console.log(a);
+        // }
+        // console.log(a);
+        // const a ="This cannot be changed";
+        // a ="Thisds cannot be changed";
+        // console.log(a);
+        // let age = 4;
+        // if (age >= 18) {
+        //     console.log("You can votee");
+        // }
+        // else if(age==2){
+        //     console.log("Age is 2.. It is too small");
+        // }
+        // else {
+        //     console.log("You cannot vote");
+        // }
+
+        // var cups = prompt("Please enter the number of cups");
+        const cups = 4;
+        switch (cups) {
+            case 4:
+                console.log("The value of cups is 4");
+                break;
+
+            case 41:
+                console.log("The value of cups is 41");
+                break;
+
+            case 42:
+                console.log("The value of cups is 42");
+                break;
+
+            case 43:
+                console.log("The value of cups is 43");
+                break;
+
+            default:
+            console.log("The value of the cups is none of the above");
+                break;
+        }
+    </script>
+</body>
+
+</html>

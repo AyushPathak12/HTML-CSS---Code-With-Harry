@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set interval and set time out and clearTimeOut</title>
+</head>
+<body>
+    <div class="container">
+        THIS is a container
+    </div>
+    Time now is <span id="time"></span>
+    <script>
+        console.log("This is tutorial...")
+
+        function greet(name, byeText) {
+            console.log("Hello Good Morning" + " "+ name + " " + byeText)
+        }
+        // setTimeout(greet, 2000, "Ayush", "Take care");
+        // timeOut= setTimeout(greet, 2000, "Ayush", "Take care");
+        // console.log(timeOut);
+        // clearTiemout(timeOut);
+
+        // intervalid=setInterval(greet, 1000, "Harry", "Good Night");
+        // clearInterval(intervalid);
+
+        function displayTime(){
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
+        setInterval(displayTime, 1000);
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
