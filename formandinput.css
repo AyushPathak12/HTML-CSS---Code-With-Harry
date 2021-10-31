@@ -1,0 +1,14 @@
+
+.ayush{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding: 7px;
+}
+body{
+    background-color: beige;
+}
+#name{
+    background-color: blue;
+}
